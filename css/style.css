@@ -155,8 +155,50 @@ margin-bottom: 30px;
 }
 
 .main-footer{
-    padding: 20px;
+    padding: 35px;
     color:white;
-    background-color: #333;
+    background-color: #444;
     text-align: center;
+}
+
+.about-info{
+    padding-top: 30px;
+    background-color: #F4F4F4;
+}
+
+.about-info .about-info-container div{
+    display: inline-block;
+}
+
+.about-info-container{
+    width: 80%;
+    margin: auto;
+}
+
+.about-info .about-info-container div{
+width: 49%;
+}
+
+.about-info div.content{
+    vertical-align:top;
+}
+
+.about-info div.content h1{
+    font-size: 45px;
+}
+
+.about-info div.content p{
+    padding-top: 10px;
+    line-height: 1.5em;
+    color: #333333;
+}
+
+
+.about-info .about-info-container div img{
+    /* width: 300px;
+    height: 300px; */
+    width: 70%;
+
+    border-radius: 50%;
+    float: right;
 }
