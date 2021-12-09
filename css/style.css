@@ -162,7 +162,7 @@ margin-bottom: 30px;
 }
 
 .about-info{
-    padding-top: 30px;
+    padding: 30px 0px;
     background-color: #F4F4F4;
 }
 
@@ -201,4 +201,46 @@ width: 49%;
 
     border-radius: 50%;
     float: right;
+}
+
+.bg-primary{
+    background-color: #f7c08a;
+}
+
+.testimonials{
+    background-image: url('../image_resources/test-bg.jpg');
+}
+.testimonials .container{
+    margin: auto;
+    width: 80%;
+    padding:50px;
+}
+
+
+.testimonials .container h2{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+.testimonial{
+    background-color: #f7c08a;
+    margin: 30px;
+    padding: 30px;
+    border-radius: 10px;
+    color: #333333;
+    opacity: .9;
+
+}
+
+.testimonial img{
+    /* width: 100px;
+    height: 100px; */
+    width: 11%;
+    border-radius: 50%;
+}
+
+.testimonial p{
+    width: 80%;
+    display: inline-block;
 }
