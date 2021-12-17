@@ -1,0 +1,32 @@
+#navbar h1 a, #navbar ul, nav ul li {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+
+.showcase .showcase__paragraph{
+    display: none;
+}
+
+
+.home-info img{
+    display: none;
+}
+.home-info div.content{
+    width: 100%;
+}
+
+.features .box{
+    width: 100%;
+}
+
+.about-info .about-info-container .content{
+    width: 100%;
+    }
+
+.about-info .about-info-container div img{
+    float: none;
+    display: none;
+}
